@@ -56,10 +56,10 @@ sequenceDiagram
 > 🧨 Before you click the "Assessment Complete" button on the Learning Platform, add your answers below for each question and make a commit. It is your option to request a face-to-face meeting with a coach for a vocabulary review.
 
 1. Should transient state be represented in a database diagram? Why, or why not?
-   > Your answer here
+   > No because it's mutable depending on the user's choices, is structured according to the permanent database's design, and can't be access or manipulated until the data is in the permanent database. In theory, it could be put in a database diagram, but it'd be redundant and likely be confusing on larger projects provided that the primary and foreign keys match up properly between the other entities and the database. 
 2. In the **FoodTruck** module, you are **await**ing the invocataion of all of the component functions _(e.g. sales, veggie options, etc.)_. Why must you use the `await` keyword there? Explain what happens if you remove it.
-   > Your answer here
+   > You have to use the 'await' keyword there because the function definition is asynchronous. If you remove it, the response from the API will just be a promise instead of the requested data. 
 3. When the user is making choices by selecting radio buttons, explain how that data is retained so that the **Purchase Combo** button works correctly.
-   > Your answer here
+   > It's retained by the setter functions being invoked with the user's choice as an argument by identifying the kind of button with an event listener, accessing the value state to determine the id, then updating the transient state data structure with the selected values which is then posted into the purchases array in the database.
 4. You used the `map()` array method in the self assessment _(at least, you should have since it is a learning objective)_. Explain why that function is helpful as a replacement for a `for..of` loop.
-   > Your answer here
+   > It allows us to address a function to each element while iterating and ensures that the original array won't be transformed by creating a new array. It's also cleaner and personally helps me in debugging. .map can also be chained with other methods more easily than using multiple for..of loops. 
