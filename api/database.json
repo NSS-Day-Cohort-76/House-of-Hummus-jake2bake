@@ -132,52 +132,16 @@
   ],
   "purchases": [
     {
-      "entreeId": 9,
-      "vegetableId": 2,
-      "sideId": 3,
+      "entreeId": 4,
+      "vegetableId": 7,
+      "sideId": 4,
       "id": 1
     },
     {
-      "entreeId": 8,
-      "vegetableId": 6,
-      "sideId": 2,
-      "id": 2
-    },
-    {
-      "entreeId": 10,
-      "vegetableId": 9,
-      "sideId": 4,
-      "id": 3
-    },
-    {
-      "entreeId": 3,
-      "vegetableId": 4,
-      "sideId": 2,
-      "id": 4
-    },
-    {
-      "entreeId": 2,
-      "vegetableId": 1,
-      "sideId": 1,
-      "id": 5
-    },
-    {
-      "entreeId": 2,
-      "vegetableId": 2,
-      "sideId": 1,
-      "id": 6
-    },
-    {
-      "entreeId": 12,
-      "vegetableId": 9,
-      "sideId": 6,
-      "id": 7
-    },
-    {
       "entreeId": 11,
-      "vegetableId": 1,
-      "sideId": 3,
-      "id": 8
+      "vegetableId": 8,
+      "sideId": 1,
+      "id": 2
     }
   ]
 }
